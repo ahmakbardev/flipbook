@@ -241,24 +241,16 @@
                     </div>
                 </div>
               </div>
-              <div class="col-5">
-                <div class="row">
-                  <div class="col-3">
-                    <h5>Nama</h5>
-                    <h5>Prodi</h5>
-                    {{-- <h5>Univ.</h5> --}}
-                  </div>
-                  <div class="col-8">
-                    <h5>: Alfia Almanda</h5>
-                    <h5>: D4 Perpustakaan Digital</h5>
-                    <h5>&nbsp; Universitas Negeri Malang</h5>
-                  </div>
-                </div>
-              </div>
+
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
+      <footer class="row" style="justify-content: center; text-align: center; position: fixed; bottom: 0; width: 100%; overflow-x: hidden;">
+        <div class="row" style="justify-content: center; background-color: white; width: 100%; padding-block: 1rem;">
+          <h5>Alfia Almanda <br> D4 Perpustakaan Digital <br> Universitas Negeri Malang </h5> 
+        </div>
+      </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -312,6 +312,11 @@
             </li>
         </ul>
     </nav>
+    <footer class="row" style="justify-content: center; text-align: center; position: relative; bottom: 0; width: 100%; overflow-x: hidden;">
+      <div class="row" style="justify-content: center; background-color: white; width: 100%; padding-block: 1rem;">
+        <h5>Alfia Almanda <br> D4 Perpustakaan Digital <br> Universitas Negeri Malang </h5> 
+      </div>
+    </footer>
 
     <!-- End Of Pagination -->
 
