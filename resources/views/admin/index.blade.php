@@ -44,10 +44,10 @@
           </button>
         </div>
         <div>
-          <a class="navbar-brand brand-logo" href="index.html">
+          <a class="navbar-brand brand-logo" href="/">
             <h4 class="fw-bold">Flipbook</h4>
           </a>
-          <a class="navbar-brand brand-logo-mini" href="index.html">
+          <a class="navbar-brand brand-logo-mini" href="/">
             <h4 class="fw-bold">Flipbook</h4>
           </a>
         </div>

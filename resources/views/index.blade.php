@@ -212,7 +212,7 @@
 
     <!-- Navbar -->
     <header>
-        <a href="#" style="color: black; font-weight: bold;"
+        <a href="/" style="color: black; font-weight: bold;"
           ><img
             src="{{ asset('logo.png') }}"
             alt="logo"

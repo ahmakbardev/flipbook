@@ -181,7 +181,7 @@
 
   <!-- Navbar -->
   <header>
-    <a href="#" style="color: black; font-weight: bold;"
+    <a href="/" style="color: black; font-weight: bold;"
     ><img
       src="{{ asset('logo.png') }}"
       alt="logo"
@@ -201,13 +201,14 @@
   <!-- PDF INFORMATION -->
   <section class="info" id="info">
     <div class="container">
-        <div class="card shadow">
-            <div class="row">
-                <div class="col-md-3">
+        <div class="card shadow" style="padding: 3rem">
+            <div class="row" style="justify-content: space-between">
+              <div class="col-6 row">
+                <div class="col-md-6">
                     <!-- Display the cover image of the PDF -->
                     <img src="{{ Storage::url($pdf->cover_image) }}" class="w-100 book-1">
                 </div>
-                <div class="col-md-7 mt-3">
+                <div class="col-md-6 mt-3">
                     <!-- Info -->
                     <div class="d-flex gap-3 align-items-end">
                         <h3 id="title">{{ $pdf->title }}</h3>
@@ -239,6 +240,21 @@
                         <a href="{{ Storage::url($pdf->file_path) }}" class="btn btn-primary mt-2 text-white" download>Unduh PDF <i class="fas fa-download fa-lg"></i></a>
                     </div>
                 </div>
+              </div>
+              <div class="col-5">
+                <div class="row">
+                  <div class="col-3">
+                    <h5>Nama</h5>
+                    <h5>Prodi</h5>
+                    {{-- <h5>Univ.</h5> --}}
+                  </div>
+                  <div class="col-8">
+                    <h5>: Alfia Almanda</h5>
+                    <h5>: D4 Perpustakaan Digital</h5>
+                    <h5>&nbsp; Universitas Negeri Malang</h5>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
